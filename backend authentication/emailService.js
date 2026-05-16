@@ -1,5 +1,5 @@
 const nodemailer = require('nodemailer');
-const { emailTemplates } = require('../utils/emailTemplates');
+const { emailTemplates } = require('./emailTemplates');
 
 // Create transporter
 const createTransporter = () => {
