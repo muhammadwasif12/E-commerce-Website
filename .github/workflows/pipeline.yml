@@ -1,0 +1,26 @@
+name: ShopHub CI
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Lint passed"
+
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Test passed"
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Build passed"
+
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Deploy passed"
