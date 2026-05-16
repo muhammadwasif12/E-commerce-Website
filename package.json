@@ -1,0 +1,12 @@
+{
+  "name": "ecommerce-website-root",
+  "version": "1.0.0",
+  "description": "Root package for deployment",
+  "scripts": {
+    "install": "cd \"backend authentication\" && npm install",
+    "start": "cd \"backend authentication\" && npm start"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
